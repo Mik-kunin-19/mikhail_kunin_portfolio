@@ -16,6 +16,8 @@ color: purple;
 font-family: Arial Hebrew;
 }
 .menubutton{
+width:30px;
+height:15px;
 background-color: lightblue;
 border-radius: 20px;
 color:black;
@@ -65,6 +67,8 @@ border: solid red 3px
 
 .institutelogo{
 padding-right: 10px;
+width: 33%;
+height:100%;
 }
 
 .personalfoto{
