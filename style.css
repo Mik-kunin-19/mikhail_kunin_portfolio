@@ -1,13 +1,14 @@
 
 body {
+  background-color: #FAF0E6;
  height:80vh;
  display: grid;
- grid-template-columns: 1fr 2fr;
- grid-template-rows: 15% 75% 10%;
+ grid-template-columns: 1fr 4fr;
+ grid-template-rows: 20% 75% 3%;
  grid-template-areas:
-          "header header"
-          "side-panel main-panel"
-          "footer footer";
+          "header header header header header"
+          "side-panel main-panel main-panel main-panel main-panel"
+          "footer footer footer footer footer";
         height: 100vh;
         margin: 0;
 }
@@ -16,8 +17,8 @@ color: purple;
 font-family: Arial Hebrew;
 }
 .menubutton{
-width:30px;
-height:15px;
+width:20vh;
+height:5vh;
 background-color: lightblue;
 border-radius: 20px;
 color:black;
@@ -32,7 +33,7 @@ color: white;
 }
 
 .navbarimg{
-width: 80px;
+width: 30vh;
 height: 100%;
 }
 
@@ -62,13 +63,15 @@ margin-left: 5px;
 margin-right: 5px;
 }
 .langimg:hover{
-border: solid red 3px
+border: solid red 3px;
 }
 
 .institutelogo{
-padding-right: 10px;
-width: 33%;
-height:100%;
+padding-right: 10vh;
+width: 20vh;
+height:5vh;
+padding-left:10vh;
+padding-right:10vh;
 }
 
 .personalfoto{
@@ -80,7 +83,6 @@ height:168px;
  grid-area: side-panel;
  border:solid black 1px;
  color: black;
- background-color: white;
  margin-left: 20px;
  }
  #main-panel{
