@@ -24,7 +24,7 @@ border-radius: 20px;
 color:black;
 justify-content:spacearound;
 border: solid black 1px;
-font-size: 15px;
+font-size: 10px;
 font-weight: bold;
 }
 .menubutton:hover{
@@ -83,6 +83,7 @@ height:168px;
  border:solid black 1px;
  color: black;
  margin-left: 20px;
+ border-radius: 5vw;
  }
  #main-panel{
  grid-area: main-panel;
@@ -95,6 +96,9 @@ height:168px;
  height:100%
  width:100vw;
  }
+header{
+  background-color:#95c2d5;
+}
  
  p {
   text-align: center;
