@@ -93,6 +93,7 @@ height:168px;
  
  header, footer{
  height:100%
+ width:100vw;
  }
  
  p {
