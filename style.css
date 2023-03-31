@@ -155,3 +155,34 @@ header{
   margin-top: 5px;
   font-size: 10px;
 }
+
+.picture-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture img {
+  max-width: 150px;
+  height: 150px;
+  border-radius:150px;
+  border:solid 2px black;
+}
+
+.projects{
+  width: 250px;
+  height: 250px;
+  margin-left: 50px;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
