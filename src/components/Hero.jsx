@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import profilePic from '../assets/profile.jpg';
+import profilePic from '../assets/DH4C1251AA.jpg';
 
 export default function Hero() {
   const { t } = useTranslation();
